@@ -1,0 +1,8 @@
+{
+    "engine": "PATH",
+    "namespace": "experiment",
+    "name": "mnist_guest",
+    "address": {
+        "path": "/data/projects/fate/examples/data/mnist_guest"
+    }
+}
