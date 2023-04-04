@@ -16,16 +16,16 @@
         "common": {
             "hetero_nn_0": {
                 "epochs": 1,
-		"max_iter": 1,
+                "max_iter": 1,
                 "interactive_layer_lr": 0.01,
                 "batch_size": 32,
                 "early_stop": "diff",
                 "optimizer": {
-                	"learning_rate": 0.001,
-			"optimizer": "Adam"
+                    "learning_rate": 0.001,
+                    "optimizer": "Adam"
                 },
                 "loss": "NLLLoss",
-		"metrics": [
+                "metrics": [
                     "accuracy"
                 ],
                 "bottom_nn_define": [
@@ -67,15 +67,13 @@
                     {
                         "layer": "Flatten"
                     }
-		],
-
+                ],
                 "top_nn_define": [
-		    {
+                    {
                         "layer": "Linear",
                         "in_features": 50,
                         "out_features": 10
                     },
-
                     {
                         "layer": "LogSoftmax"
                     }
@@ -89,7 +87,7 @@
                     {
                         "layer": "ReLU"
                     }
-		    ],
+                ],
                 "config_type": "pytorch"
             },
             "hetero_nn_1": {
@@ -98,7 +96,8 @@
                 "top_nn_define": null,
                 "interactive_layer_define": null,
                 "config_type": "pytorch"
-	},
+            }
+        },
         "role": {
             "guest": {
                 "0": {
