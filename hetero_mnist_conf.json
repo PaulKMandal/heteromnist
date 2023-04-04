@@ -16,7 +16,6 @@
         "common": {
             "hetero_nn_0": {
                 "epochs": 1,
-                "max_iter": 1,
                 "interactive_layer_lr": 0.01,
                 "batch_size": 32,
                 "early_stop": "diff",
