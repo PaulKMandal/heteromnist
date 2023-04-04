@@ -68,6 +68,8 @@
                         "layer": "Flatten"
                     }
 		],
+                    "backend": "pytorch"
+                },
 
                 "top_nn_define": [
 		    {
@@ -90,6 +92,8 @@
                         "layer": "ReLU"
                     }
 		    ],
+                    "backend": "pytorch"
+                },
                 "config_type": "pytorch"
             },
             "hetero_nn_1": {
@@ -98,7 +102,8 @@
                 "top_nn_define": null,
                 "interactive_layer_define": null,
                 "config_type": "pytorch"
-	},
+            },
+	}
         "role": {
             "guest": {
                 "0": {
